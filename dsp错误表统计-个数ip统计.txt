@@ -1,0 +1,85 @@
+
+30 7
+12 10
+24  4
+15  1
+2   3
+
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_app_show_server/dt=20180301/* | wc -l
+30
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_adunion_click_show_down_install/dt=20180301/* | wc -l
+30
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_app_request/dt=20180301/* | wc -l
+30
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_request/dt=20180301/* | wc -l
+30
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_response/dt=20180301/* | wc -l
+30
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_adxerror/dt=20180301/* | wc -l
+30
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_adunion_request/dt=20180301/* | wc -l
+30
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_minipc_dsp_show_inview/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_minipc_dsp_show/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_sdk_click/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_sdk_show/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_show/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_click/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_show/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_inview/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_union_pc_inview/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_union_pc_client_show/dt=20180301/* | wc -l
+12
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_response/dt=20180301/* | wc -l
+24
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_adxerror/dt=20180301/* | wc -l
+24
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_filtration/dt=20180301/* | wc -l
+24
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_request/dt=20180301/* | wc -l
+24
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/shurufa.db/log_judgehistoryjou/dt=20180301/* | wc -l
+2
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/sportsdb.db/log_sports_active/dt=20180301/* | wc -l
+2
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/usercenter.db/log_app_login/dt=20180301/* | wc -l
+15
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/sportsdb.db/log_sports_createhtml/dt=20180301/* | wc -l
+2
+
+
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_app_show_server/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_adunion_click_show_down_install/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_app_request/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_request/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_response/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_adxerror/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_adunion_request/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_minipc_dsp_show_inview/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_minipc_dsp_show/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_sdk_click/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_sdk_show/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_show/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_click/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_show/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_app_inview/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_union_pc_inview/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_union_pc_client_show/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_response/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_adxerror/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adver_filtration/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/adverdb.db/log_adx_adver_request/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/shurufa.db/log_judgehistoryjou/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/sportsdb.db/log_sports_active/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/usercenter.db/log_app_login/dt=20180301/* | wc -l
+/opt/dftthadoop/bin/hadoop fs -ls  /user/hive/warehouse/sportsdb.db/log_sports_createhtml/dt=20180301/* | wc -l
+
